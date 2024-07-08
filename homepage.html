@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government of Chhattisgarh - Tribal Development</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Government of Chhattisgarh" width="80" height="100">
+        </div>
+        <div class="Head">
+            <h1>Government of Chhattisgarh</h1>
+        </div>
+        
+        <nav class="navbar">
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="financial-solutions.html">Financial Solutions</a></li>
+                <li><a href="govt-support-services.html">Government Support Services</a></li>
+                <li><a href="support-schemes.html">Support Schemes</a></li>
+                <li><a href="literacy.html">Literacy Program</a></li>
+                <li><a href="carbon-credit.html">Carbon Credit</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button id="login-btn"><b>Login</b></button>
+            <button id="register-btn"><b>Register</b></button>
+        </div>
+    </header>
+
+    <!-- Login and Register Modal -->
+    <div id="auth-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="login-form" class="auth-form">
+                <h2>Login</h2>
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+            <div id="register-form" class="auth-form" style="display:none;">
+                <h2>Register</h2>
+                <form>
+                    <label for="new-username">Username:</label>
+                    <input type="text" id="new-username" name="new-username" required>
+                    <label for="new-password">Password:</label>
+                    <input type="password" id="new-password" name="new-password" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Hero Section with Background Slideshow -->
+        <section class="hero">
+            <h1>Tribal Development Initiatives</h1>
+            <p>Empowering Tribal Communities in Chhattisgarh</p>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="slide1.png" alt="Slide 1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="slide2.png" alt="Slide 2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="slide3.png" alt="Slide 3">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Articles Section -->
+        <section class="articles">
+            <h2>Latest Articles</h2>
+            <div class="article-grid">
+                <article>
+                    <h3>Empowering Tribal Women through Entrepreneurship</h3>
+                    <p>Learn how government initiatives are supporting tribal women in starting their own businesses.</p>
+                    <a href="#">Read more</a>
+                </article>
+                <article>
+                    <h3>Sustainable Farming Practices in Tribal Areas</h3>
+                    <p>Explore the latest data and practices in sustainable farming adopted by tribal communities.</p>
+                    <a href="#">Read more</a>
+                </article>
+                <!-- Add more articles as needed -->
+            </div>
+        </section>
+
+        <!-- Ongoing News Section -->
+        <section class="news-updates">
+            <h2>Ongoing News Updates</h2>
+            <ul>
+                <li><a href="#">New Government Support Scheme Launched for Tribal Youth</a></li>
+                <li><a href="#">Successful Implementation of Literacy Program in Remote Tribal Villages</a></li>
+                <!-- Add more news updates as needed -->
+            </ul>
+        </section>
+
+        <!-- Tribal Development Sections -->
+        <section class="development-sections">
+            <div class="section">
+                <h2>Child and Women Support</h2>
+                <p>Programs and schemes for the welfare of tribal children and women.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="section">
+                <h2>Business Updates</h2>
+                <p>Latest news and updates on tribal business initiatives and opportunities.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="section">
+                <h2>Farming Data</h2>
+                <p>Information and updates on tribal farming practices and data.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Government of Chhattisgarh. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Effects and Modal -->
+    <script src="homepage.js"></script>
+</body>
+</html>
